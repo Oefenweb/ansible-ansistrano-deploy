@@ -100,6 +100,7 @@ Role Variables
   ansistrano_s3_bucket: s3bucket
   ansistrano_s3_object: s3object.tgz
   ansistrano_s3_region: eu-west-1
+  ansistrano_allow_anonymous_stats: yes
 
   # Optional variables, omitted by default
   ansistrano_s3_aws_access_key: YOUR_AWS_ACCESS_KEY
